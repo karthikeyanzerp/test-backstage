@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-backstage
+  # This is an extra long description with Markdown
+  description: |
+    Test springboot app to test backstage
+    - First item
+    - Second item
+  links:
+    - url: https://github.com/karthikeyanzerp/test-backstage
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-c
+  providesApis:
+    - petstore
+    - streetlights
+    - hello-world
