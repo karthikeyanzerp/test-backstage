@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test-backstage
+  annotations:
+   backstage.io/code-coverage: value
+   github.com/project-slug: value
+   jenkins.io/job-full-name: attestation   
   # This is an extra long description with Markdown
   description: |
     Test springboot app to test backstage
