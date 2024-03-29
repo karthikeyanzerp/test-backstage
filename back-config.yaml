@@ -23,6 +23,6 @@ spec:
   lifecycle: experimental
   owner: team-c
   providesApis:
-    - petstore2
+    - petstore
     - streetlights
     - hello-world
