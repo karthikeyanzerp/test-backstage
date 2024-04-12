@@ -9,6 +9,7 @@ metadata:
    sonarqube.org/project-key: attestation
    nexus-repository-manager/docker.image-name: zirius
    nexus-repository-manager/docker.image-tag: latest
+   grafana/dashboard-selector: grafana/dashboard-selector: my-service
   # This is an extra long description with Markdown
   description: |
     Test springboot app to test backstage
