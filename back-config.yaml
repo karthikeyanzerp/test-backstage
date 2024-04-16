@@ -9,7 +9,7 @@ metadata:
    sonarqube.org/project-key: attestation
    nexus-repository-manager/docker.image-name: zirius
    nexus-repository-manager/docker.image-tag: latest
-   grafana/overview-dashboard: http://15.0.3.5:3000/d/ov0oEgdik/linux-hosts-metrics-7c-base?orgId=1&from=now-15m&to=now&refresh=5s&var-host=11.0.3.252:9100&var-job=Beta-vdnzerp
+   grafana/dashboard-selector: tags @> 'Beta-vdnzerp'
   # This is an extra long description with Markdown
   description: |
     Test springboot app to test backstage
