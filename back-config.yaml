@@ -10,6 +10,7 @@ metadata:
    nexus-repository-manager/docker.image-name: zirius
    nexus-repository-manager/docker.image-tag: latest
    grafana/dashboard-selector: "tags @> 'vdnzerp'"
+   grafana/overview-dashboard: 'http://15.0.3.5:3000/d/e287b1f0-a9c1-4935-93c3-e8522a352e83/vdnzerp?orgId=1&kiosk'
   # This is an extra long description with Markdown
   description: |
     Test springboot app to test backstage
