@@ -6,7 +6,7 @@ metadata:
    backstage.io/code-coverage: value
    github.com/project-slug: value
    jenkins.io/job-full-name: attestation   
-   sonarqube.org/project-key: attestation
+   sonarqube.org/project-key: bank-account
    nexus-repository-manager/docker.image-name: zirius
    nexus-repository-manager/docker.image-tag: latest
    grafana/dashboard-selector: "tags @> 'vdnzerp'"
